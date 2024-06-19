@@ -15,7 +15,7 @@ const routes: Array<RouteRecordRaw> = [
     component: HomePage
   },
   {
-    path: '/list',
+    path: '/list/:genre_id',
     name: 'List',
     component: MoviesListPage
   },

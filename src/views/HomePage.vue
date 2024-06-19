@@ -5,7 +5,7 @@
   </ion-title>
   <ion-row>
     <ion-col v-for="genre in genres">
-      <ion-card>
+      <ion-card :href="`/list/${genre.id}`">
         <ion-card-content>
           {{ genre.name }}
         </ion-card-content>
