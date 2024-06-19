@@ -1,0 +1,7 @@
+{
+  "name": "ejercicio-pelis",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
